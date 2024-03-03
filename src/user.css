@@ -1,0 +1,59 @@
+#find{
+    width: 80%;
+    height:70px;
+    border-radius: 30px;
+  font-size: 22px;
+  margin:  10%;
+  padding: 2px;
+  color: white;
+  text-align: center;
+  
+  
+}
+#moto{
+    width: 40%;
+    height: 40%;
+    margin-bottom: 20px;
+    margin-top: -5%;
+}
+#call{
+    float: right;
+    margin-top: 2%;
+    width: 20%;
+    height: 20%;
+}
+table{
+    margin:auto;
+}
+
+td{
+    color: aliceblue;
+    font-size: 22px;
+   width: 3%;
+   
+  
+}
+#box{
+    margin-top: 20px;
+    background: #38383885 0% 0% no-repeat padding-box;
+    margin-left: 2%;
+}
+#index{
+    margin-top: 0%;
+}
+@media (min-width:800px) {
+
+    #moto{
+        width: 40%;
+        height: 40%;
+        margin-top: -10%;
+    }
+
+    #call{
+        float: right;
+        margin-top: 2%;
+        width: 15%;
+    }
+   
+    
+}

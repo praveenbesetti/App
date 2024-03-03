@@ -1,0 +1,15 @@
+@media (min-width:700px) {
+
+  #main
+{
+  width: 60%;
+  max-height: 100%;
+  margin-left: 20%;
+  margin-top: 0%;
+}
+  
+}
+button{
+  cursor: pointer;
+}
+

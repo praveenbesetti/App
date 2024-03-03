@@ -1,0 +1,118 @@
+body{
+    background: #000;
+}
+img{
+  width: 40%;
+  height: 40%;
+  margin-left: 30%;
+  margin-top:20%;
+
+mix-blend-mode: normal;
+opacity: 1;
+}
+h3{
+    top: 224px;
+    left: 448px;
+    width: 322px;
+    height: 25px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal bold 18px/25px Source Sans Pro;
+    letter-spacing: 0.01px;
+    color: #FFFFFFB3;
+    opacity: 0.84;
+    
+}
+#text{
+    top: 215px;
+left: 442px;
+width: 328px;
+height: 45px;
+/* UI Properties */
+background: #1A2C2C99 0% 0% no-repeat padding-box;
+mix-blend-mode: normal;
+opacity: 1;
+margin: auto;
+border-radius: 30px;
+   
+}
+input{
+   width: 80%;
+   margin-left: 5%;
+   top: 436px;
+
+height: 11px;
+/* UI Properties */
+background: #36A54680 0% 0% no-repeat padding-box;
+mix-blend-mode: normal;
+color: #6f4c4c;
+border: 1px solid #36A546;
+opacity: 1;
+}
+input[type="range"]::-webkit-progress-value {
+    background: #4caf50;
+}
+h5{
+    top: 356px;
+left: 473px;
+width:40%;
+height: 15px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 12px/16px Mulish;
+letter-spacing: 0px;
+color: #FFFFFFB3;
+opacity: 1;
+
+padding: 20px;
+}
+
+#hold{
+    background: #1A2C2C99 0% 0% no-repeat padding-box;
+mix-blend-mode: normal;
+
+}
+#logo{
+    float: right;
+    margin-top: 2%;
+}
+.link{top: 738px;
+
+width: 49%;
+height: 63px;
+/* UI Properties */
+background: #38383885 0% 0% no-repeat padding-box;
+mix-blend-mode: normal;
+border: 1px solid #000000;
+opacity: 1;
+filter: blur(2);
+font-size: 30px;
+color: wheat;
+}
+span{
+    float: right;
+    color: whitesmoke;
+    margin-top: 0%;
+    margin-right: 3%;
+}
+
+@media (min-width:800px) {
+
+    #pogo{
+        width: 40%;
+        height: 40%;
+        margin-top: 0%;
+    }
+
+    #logo{
+        float: right;
+        margin-top: 5%;
+        width: 15%;
+    }
+    #product{
+        margin-top: -6%;
+    }
+    h5{
+        font-size: 20px;
+    }
+}
