@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link} from 'react-router-dom'
 import './user.css';
 
 const SearchComponent = () => {
@@ -69,8 +70,12 @@ const SearchComponent = () => {
             </div>
             </div>
           )})}
-       
+           <div id="dot">
+       <Link to="/dashboard"> <button className="link">Home</button></Link> 
+       <Link to="/users"> <button className="link">users</button></Link>
+       </div>
       </div>
+     
  
   );
 };

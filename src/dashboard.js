@@ -37,7 +37,7 @@ const DashBoard=()=>
                 )
             })}
           </div>
-                <div>
+                <div id="dot">
                     <Link to="/dashboard"> <button className="link">Home</button></Link> 
                     <Link to="/users"> <button className="link">users</button></Link>
                     </div>

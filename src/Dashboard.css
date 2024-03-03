@@ -95,7 +95,9 @@ span{
     margin-top: 0%;
     margin-right: 3%;
 }
-
+#dot {
+    margin-top: 10%;
+ }
 @media (min-width:800px) {
 
     #pogo{

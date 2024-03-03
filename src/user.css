@@ -41,6 +41,9 @@ td{
 #index{
     margin-top: 0%;
 }
+#dot {
+    margin-top: 10%;
+ }
 @media (min-width:800px) {
 
     #moto{
